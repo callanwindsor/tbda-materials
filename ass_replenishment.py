@@ -86,7 +86,6 @@ prob += 0 # To be filled
 
 # Restrictions
 
-# Fill the current demand
 
 # The problem is solved using PuLP's choice of Solver
 prob.solve()

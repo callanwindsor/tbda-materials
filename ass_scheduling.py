@@ -82,9 +82,6 @@ prodmaxtime = {
 	'p9': 15,
 }
 
-ntime = 30
-nprod = len(lprod)
-nres = len(lres)
 
 
 # Variables
@@ -94,7 +91,6 @@ prob += 0 # To be filled
 
 # Restrictions
 
-# Fill the current demand
 
 # The problem is solved using PuLP's choice of Solver
 prob.solve()
